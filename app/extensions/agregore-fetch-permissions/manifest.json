@@ -1,0 +1,14 @@
+{
+    "manifest_version": 1,
+    "name": "agregore-fetch-permissions",
+    "version": "1.0",
+  
+    "description": "Add permissions for fetch",
+  
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  
+    "background": {
+      "scripts": ["idb.js", "content.js"]
+    }
+  }
+  
