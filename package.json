@@ -163,6 +163,7 @@
     "gun-fetch": "github:resession/gun-fetch#main",
     "hyper-sdk": "^3.0.7",
     "hypercore-fetch": "^8.3.3",
+    "idb-keyval": "^6.1.0",
     "ipfs-core": "^0.10.0",
     "js-ipfs-fetch": "^3.3.0",
     "mime": "^2.4.6",
