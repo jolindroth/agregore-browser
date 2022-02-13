@@ -1,14 +1,11 @@
 {
-    "manifest_version": 2,
-    "name": "agregore-fetch-permissions",
-    "version": "1.0",
-  
-    "description": "Add permissions for fetch",
-  
-    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
-  
-    "background": {
-      "scripts": ["idb.js", "content.js"]
-    }
-  }
-  
+	"manifest_version": 2,
+	"name": "agregore-history",
+	"version": "1.0",
+
+	"description": "The history tracking functionality for the Agregore Browser",
+
+	"background": {
+		"page": "background.html"
+	}
+}
